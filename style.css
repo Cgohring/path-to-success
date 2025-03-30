@@ -1,19 +1,143 @@
 /* CSS BY Carley Gohring */
+
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-/* CSS RESET */
-* {
-    Margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* ROOT VARIABLES */
-/*:root {
 
-}*/
+/* CSS RESET */
+/*CSS RESET by Eric Meyer*/
+/* Meyer’s Reset CSS v2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Ensure block elements behave consistently */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Reset lists */
+ol, ul {
+  list-style: none;
+}
+
+/* Reset quotes */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --font-family: 'Inter';
+    --background-color: #6B8FE7;
+    --color: #1E1E1E;
+}
 /* GLOBAL STYLES (mobile first/small) */
+* {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--color);
+}
 
 body {
     max-width: 450px;
     margin: 0 auto;
 }
+
+/*Header Styles*/
+h1, h2 {
+    font-family: 'Kavoon';
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3em;
+    background-color: #484FB7;
+}
+
+header p {
+    color: #ffffff;
+    font-family: var(--font-family);
+    background-color: #484FB7;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    color: #1E1E1E;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+    background-color: #E9BB57;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #E9BB57; 
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.15em;
+    color: #484FB7;
+    font-weight: bold;
+}
+
+/*Navigation Styles*/
+
+nav a {
+    color: #484FB7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--font-family);
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #484FB7;
+}
+
+/*
+for potentially using for my why choose us area but may conflict with nav ul but maybe not since those are nested as nav li, test out and see if this works
+li:nth-child(1) {
+}
+li:nth-child(2) {
+}
+li:nth-child(3) {
+}
+li:nth-child(4) {
+}
+*/
