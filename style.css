@@ -129,15 +129,11 @@ h4 {
 
 /*Navigation Styles*/
 
-.nav {
-    background-color: var(--yellow);
-}
-
 nav ul li {
     text-align: center;
     padding: 5px;
     background-color: var(--white);
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -162,6 +158,17 @@ nav a {
     background-color: var(--purple);
     text-align: center;
     font-style: oblique;
+}
+
+.nav {
+    background-color: var(--yellow);
+}
+
+.container {
+    background-color: var(--white);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 section {
