@@ -75,6 +75,7 @@ body {
     max-width: 450px;
     margin: 0 auto;
     background-color: var(--lavender);
+    font-size: 16px;
 }
 
 /*Header Styles*/
@@ -101,6 +102,8 @@ header p {
 
 h2 {
     font-size: 2em;
+    padding: 15px 0px 0px 15px;
+
 }
 
 nav h2 {
@@ -119,6 +122,7 @@ h3 {
     font-size: 1.5em;
     color: var(--yellow); 
     font-weight: bold;
+    padding: 0px 0px 0px 15px;
 }
 
 h4 {
@@ -155,9 +159,33 @@ img {
     padding: 15px 0px 0px 20px;
 }
 
+/*a styles*/
+p ~ a {
+    color: var(--dark-gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--white);
+    padding: 15px;
+    margin: 0px 30px;
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+    box-shadow: 4px 4px 3px #1E1E1E;
+}
+
 /*text styles*/
 p {
     padding: 0px 20px 15px 20px;
+}
+
+h2 ~ p {
+    color: var(--white);
+}
+
+/*section styles*/
+section {
+    background-color: var(--purple);
 }
 
 /*class styles*/
@@ -175,14 +203,15 @@ p {
     background-color: var(--yellow);
 }
 
-.container {
+.white-container {
     background-color: var(--white);
     width: 90%;
     margin: 15px auto;
     border-radius: 15px;
 }
 
-section {
-    background-color: var(--purple);
+.pink-container {
+    background-color: var(--pink)
 }
+
 
