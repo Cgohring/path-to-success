@@ -129,14 +129,19 @@ h4 {
 
 /*Navigation Styles*/
 
+.nav {
+    background-color: var(--yellow);
+}
+
 nav ul li {
     text-align: center;
     padding: 5px;
-    background-color: var(--yellow);
+    background-color: var(--white);
     padding: 5px;
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    margin: 10px;
 }
 
 nav a {
@@ -145,7 +150,6 @@ nav a {
     text-transform: uppercase;
     font-weight: bold;
     font-family: var(--font-family);
-    background-color: var(--white);
     padding: 10px;
 }
 
