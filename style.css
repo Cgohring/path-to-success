@@ -78,6 +78,11 @@ body {
     font-size: 16px;
 }
 
+/*section styles*/
+section {
+    background-color: var(--purple);
+}
+
 /*Header Styles*/
 h1, h2 {
     font-family: 'Kavoon';
@@ -191,11 +196,17 @@ footer a {
     color: var(--white);
 }
 
-/*section styles*/
-section {
-    background-color: var(--purple);
+/*table styles*/
+table {
+    background-color: var(--yellow);
 }
 
+td {
+    background-color: var(--white)
+}
+
+
+/*footer styles*/
 footer {
     background-color: var(--purple);
 }
