@@ -188,7 +188,7 @@ small {
 }
 
 footer a {
-    color: var(--white)
+    color: var(--white);
 }
 
 /*section styles*/
@@ -223,7 +223,7 @@ footer {
 }
 
 .pink-container {
-    background-color: var(--pink)
+    background-color: var(--pink);
 }
 
 
