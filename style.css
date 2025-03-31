@@ -183,8 +183,20 @@ h2 ~ p {
     color: var(--white);
 }
 
+small {
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white)
+}
+
 /*section styles*/
 section {
+    background-color: var(--purple);
+}
+
+footer {
     background-color: var(--purple);
 }
 
