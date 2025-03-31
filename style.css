@@ -57,36 +57,46 @@ table {
 /* ROOT VARIABLES */
 :root {
     --font-family: 'Inter';
-    --background-color: #6B8FE7;
-    --color: #1E1E1E;
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
 }
 /* GLOBAL STYLES (mobile first/small) */
 * {
     font-family: var(--font-family);
-    background-color: var(--background-color);
-    color: var(--color);
+    color: var(--dark-gray);
 }
 
 body {
     max-width: 450px;
     margin: 0 auto;
+    background-color: var(--lavender);
 }
 
 /*Header Styles*/
 h1, h2 {
     font-family: 'Kavoon';
-    color: #ffffff;
+    color: var(--white);
 }
 
 h1 {
     font-size: 3em;
-    background-color: #484FB7;
+    background-color: var(--purple);
+    text-align: center;
+    padding: 20px 10px 10px 10px;
 }
 
 header p {
-    color: #ffffff;
+    color: var(--white);
     font-family: var(--font-family);
-    background-color: #484FB7;
+    background-color: var(--purple);
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 40px; 
 }
 
 h2 {
@@ -95,49 +105,62 @@ h2 {
 
 nav h2 {
     font-size: 1.5em;
-    color: #1E1E1E;
+    color: var(--dark-gray);
     font-family: var(--font-family);
     font-weight: bold;
     font-style: oblique;
     text-transform: uppercase;
-    background-color: #E9BB57;
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 5px;
 }
 
 h3 {
     font-size: 1.5em;
-    color: #E9BB57; 
+    color: var(--yellow); 
     font-weight: bold;
 }
 
 h4 {
     font-size: 1.15em;
-    color: #484FB7;
+    color: var(--purple);
     font-weight: bold;
 }
 
 /*Navigation Styles*/
 
+nav ul li {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--yellow);
+    padding: 5px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 nav a {
-    color: #484FB7;
+    color: var(--purple);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     font-family: var(--font-family);
-    background-color: #ffffff;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+/*class styles*/
+
+.hidden {
+    display: none;
+    color: var(--white);
+    font-family: var(--font-family);
+    background-color: var(--purple);
+    text-align: center;
+    font-style: oblique;
 }
 
 section {
-    background-color: #484FB7;
+    background-color: var(--purple);
 }
 
-/*
-for potentially using for my why choose us area but may conflict with nav ul but maybe not since those are nested as nav li, test out and see if this works
-li:nth-child(1) {
-}
-li:nth-child(2) {
-}
-li:nth-child(3) {
-}
-li:nth-child(4) {
-}
-*/
