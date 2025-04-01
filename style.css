@@ -172,11 +172,11 @@ p ~ a {
     font-weight: bold;
     background-color: var(--white);
     padding: 15px;
-    margin: 0px 30px;
+    margin: 10px 30px;
     border-radius: 10px;
-    display: grid;
-    text-align: center;
     box-shadow: 4px 4px 3px #1E1E1E;
+    display: block;
+    text-align: center;
 }
 
 /*text styles*/
@@ -199,10 +199,20 @@ footer a {
 /*table styles*/
 table {
     background-color: var(--yellow);
+    margin: 10px auto;
+}
+
+th{ 
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid var(--yellow);
 }
 
 td {
-    background-color: var(--white)
+    background-color: var(--white);
+    padding: 10px;
+    border: 2px solid var(--yellow);
 }
 
 
@@ -228,8 +238,8 @@ footer {
 
 .white-container {
     background-color: var(--white);
-    width: 90%;
-    margin: 15px auto;
+    padding: 1rem;
+    margin: 1rem;
     border-radius: 15px;
 }
 
