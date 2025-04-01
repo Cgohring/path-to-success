@@ -78,8 +78,18 @@ body {
     font-size: 16px;
 }
 
-/*section styles*/
-section {
+/*header section styles*/
+header {
+    background-color: var(--purple);
+}
+
+/*main styles*/
+main {
+    background-color: var(--purple);
+}
+
+/*footer*/
+footer {
     background-color: var(--purple);
 }
 
@@ -99,7 +109,6 @@ h1 {
 header p {
     color: var(--white);
     font-family: var(--font-family);
-    background-color: var(--purple);
     text-align: center;
     font-style: oblique;
     padding-bottom: 40px; 
@@ -109,18 +118,6 @@ h2 {
     font-size: 2em;
     padding: 15px 0px 0px 15px;
 
-}
-
-nav h2 {
-    font-size: 1.5em;
-    color: var(--dark-gray);
-    font-family: var(--font-family);
-    font-weight: bold;
-    font-style: oblique;
-    text-transform: uppercase;
-    background-color: var(--yellow);
-    text-align: center;
-    padding: 5px;
 }
 
 h3 {
@@ -139,15 +136,29 @@ h4 {
 
 /*Navigation Styles*/
 
+nav h2 {
+    font-size: 1.5em;
+    color: var(--dark-gray);
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 10px 5px 0px 5px;
+}
+
+nav {
+    background-color: var(--yellow);
+}
+
 nav ul li {
     text-align: center;
     padding: 5px;
     background-color: var(--white);
     padding: 10px;
-    display: flex;
-    flex-grow: 1;
     justify-content: center;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 nav a {
@@ -156,7 +167,6 @@ nav a {
     text-transform: uppercase;
     font-weight: bold;
     font-family: var(--font-family);
-    padding: 10px;
 }
 
 /*img styles*/
@@ -222,7 +232,6 @@ footer {
 }
 
 /*class styles*/
-
 .hidden {
     display: none;
     color: var(--white);
@@ -247,4 +256,51 @@ footer {
     background-color: var(--pink);
 }
 
+/*id styles*/
+#grid-container-why-choose-us {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
 
+#grid-container-why-choose-us > li {
+    text-align: center;
+    font-weight: bold;
+    padding: 1.5em;
+    border-radius: 20px
+}
+
+#teal-bg {
+    background-color: var(--teal)
+}
+
+#lavender-bg {
+    background-color: var(--lavender)
+}
+
+#yellow-bg {
+    background-color: var(--yellow);
+}
+
+#white-bg {
+    background-color: var(--white);
+}
+
+#grid-container-footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#grid-container-footer > * {
+    text-align: center;
+    padding: 2em;
+}
+/*section styles*/
+section {
+    background-color: var(--purple);
+}
