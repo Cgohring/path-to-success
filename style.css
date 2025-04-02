@@ -72,11 +72,16 @@ table {
     color: var(--dark-gray);
 }
 
+/*html styles*/
+html {
+    font-size: 16px;
+}
+
+/*body style*/
 body {
     max-width: 450px;
     margin: 0 auto;
     background-color: var(--lavender);
-    font-size: 16px;
 }
 
 /*header section styles*/
@@ -300,8 +305,5 @@ footer {
 #grid-container-footer > * {
     text-align: center;
     padding: 2em;
-}
-/*section styles*/
-section {
-    background-color: var(--purple);
+    font-size: 0.75rem;
 }
