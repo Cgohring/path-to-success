@@ -112,14 +112,6 @@ h1 {
     padding: 20px 10px 10px 10px;
 }
 
-header p {
-    color: var(--white);
-    font-family: var(--font-family);
-    text-align: center;
-    font-style: oblique;
-    padding-bottom: 40px; 
-}
-
 h2 {
     font-size: 2em;
     padding: 15px 0px 0px 15px;
@@ -136,7 +128,7 @@ h3 {
 h4 {
     font-size: 1.15em;
     color: var(--purple);
-    font-weight: bold;
+    font-weight: 800;
     padding: 10px 0px 6px 20px;
 }
 
@@ -163,16 +155,17 @@ nav ul li {
     text-align: center;
     padding: 5px;
     background-color: var(--white);
-    padding: 10px;
+    padding: 12px 10px;
     justify-content: center;
-    margin: 10px 20px;
+    margin: 10px 25px;
+    font-size: 1rem;
 }
 
 nav a {
     color: var(--purple);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
     font-family: var(--font-family);
 }
 
@@ -186,12 +179,12 @@ p ~ a {
     color: var(--dark-gray);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 800;
     background-color: var(--white);
-    padding: 15px;
+    padding: 22px;
     margin: 10px 30px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 3px var(--dark-gray);
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px var(--dark-gray);
     display: block;
     text-align: center;
 }
@@ -201,9 +194,22 @@ p {
     padding: 0px 20px 15px 20px;
 }
 
+header p {
+    color: var(--white);
+    font-family: var(--font-family);
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 40px; 
+    font-size: 1rem;
+}
+
 h2 ~ p {
     color: var(--white);
-    padding: 0px 20px 10px 20px;
+    padding: 8px 20px 5px 20px;
+}
+
+h4 ~ p {
+    font-weight: 525;
 }
 
 small {
@@ -218,19 +224,22 @@ footer a {
 table {
     background-color: var(--yellow);
     margin: 10px auto;
+    font-size: 1rem;
 }
 
 th{ 
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     padding: 10px;
     border: 2px solid var(--yellow);
+    text-transform: uppercase;
 }
 
 td {
     background-color: var(--white);
     padding: 10px;
     border: 2px solid var(--yellow);
+    font-weight: 500;
 }
 
 
@@ -256,29 +265,39 @@ footer {
     border-radius: 15px;
 }
 
-.pink-container {
+/*id styles*/
+
+#pink-container {
     background-color: var(--pink);
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
-/*id styles*/
+#pink-container2 {
+    background-color: var(--pink);
+    padding-bottom: 2px;
+}
+
 #grid-container-why-choose-us {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
     width: 90%;
     height: 90%;
     margin: auto;
     padding-top: 10px;
+    padding-right: 15px;
+    font-size: 1.15rem;
 }
 
 #grid-container-why-choose-us > li {
     text-align: center;
-    font-weight: bold;
-    padding: 1.5em;
-    border-radius: 20px
+    font-weight: 850;
+    padding: 30px 24px;
+    border-radius: 20px;
+    font-size: 1.15rem;
+    text-transform: capitalize;
 }
 
 #teal-bg {
@@ -304,6 +323,7 @@ footer {
 
 #grid-container-footer > * {
     text-align: center;
-    padding: 2em;
-    font-size: 0.75rem;
+    padding: 45px;
+    font-size: .75rem;
+    font-family: var(--font-family);
 }
