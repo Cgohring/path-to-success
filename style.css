@@ -110,25 +110,27 @@ h1 {
     background-color: var(--purple);
     text-align: center;
     padding: 20px 10px 10px 10px;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 2em;
     padding: 15px 0px 0px 15px;
+    font-weight: 500;
 
 }
 
 h3 {
     font-size: 1.5em;
     color: var(--yellow); 
-    font-weight: bold;
+    font-weight: 600;
     padding: 0px 0px 0px 15px;
 }
 
 h4 {
     font-size: 1.15em;
     color: var(--purple);
-    font-weight: 800;
+    font-weight: 600;
     padding: 10px 0px 6px 20px;
 }
 
@@ -138,7 +140,7 @@ nav h2 {
     font-size: 1.5em;
     color: var(--dark-gray);
     font-family: var(--font-family);
-    font-weight: bold;
+    font-weight: 600;
     font-style: oblique;
     text-transform: uppercase;
     background-color: var(--yellow);
@@ -165,7 +167,7 @@ nav a {
     color: var(--purple);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
     font-family: var(--font-family);
 }
 
@@ -179,7 +181,7 @@ p ~ a {
     color: var(--dark-gray);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
     background-color: var(--white);
     padding: 22px;
     margin: 10px 30px;
@@ -187,6 +189,7 @@ p ~ a {
     box-shadow: 5px 5px 3px var(--dark-gray);
     display: block;
     text-align: center;
+    font-size: 1rem;
 }
 
 /*text styles*/
@@ -205,11 +208,14 @@ header p {
 
 h2 ~ p {
     color: var(--white);
-    padding: 8px 20px 5px 20px;
+    padding: 5px 15px 0px 15px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 h4 ~ p {
-    font-weight: 525;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 small {
@@ -228,7 +234,7 @@ table {
 }
 
 th{ 
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     padding: 10px;
     border: 2px solid var(--yellow);
@@ -239,7 +245,6 @@ td {
     background-color: var(--white);
     padding: 10px;
     border: 2px solid var(--yellow);
-    font-weight: 500;
 }
 
 
@@ -293,7 +298,7 @@ footer {
 
 #grid-container-why-choose-us > li {
     text-align: center;
-    font-weight: 850;
+    font-weight: 600;
     padding: 30px 24px;
     border-radius: 20px;
     font-size: 1.15rem;
