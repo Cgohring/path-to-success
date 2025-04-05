@@ -84,22 +84,12 @@ body {
     background-color: var(--lavender);
 }
 
-/*header section styles*/
-header {
+/*header, main, footer section styles*/
+header, main, footer {
     background-color: var(--purple);
 }
 
-/*main styles*/
-main {
-    background-color: var(--purple);
-}
-
-/*footer*/
-footer {
-    background-color: var(--purple);
-}
-
-/*Header Styles*/
+/*heading styles*/
 h1, h2 {
     font-family: var(--font-family2);
     color: var(--white);
@@ -135,7 +125,6 @@ h4 {
 }
 
 /*Navigation Styles*/
-
 nav h2 {
     font-size: 1.5em;
     color: var(--dark-gray);
@@ -192,6 +181,11 @@ p ~ a {
     font-size: 1rem;
 }
 
+footer a {
+    color: var(--white);
+    font-size: 1rem;
+}
+
 /*text styles*/
 p {
     padding: 0px 20px 15px 20px;
@@ -222,10 +216,6 @@ small {
     color: var(--white);
 }
 
-footer a {
-    color: var(--white);
-}
-
 /*table styles*/
 table {
     background-color: var(--yellow);
@@ -247,12 +237,6 @@ td {
     border: 2px solid var(--yellow);
 }
 
-
-/*footer styles*/
-footer {
-    background-color: var(--purple);
-}
-
 /*class styles*/
 .hidden {
     display: none;
@@ -271,7 +255,6 @@ footer {
 }
 
 /*id styles*/
-
 #pink-container {
     background-color: var(--pink);
     padding-bottom: 30px;
